@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section >
+        <header class="header">
+            
+        </header>
+    </section>
+    <section id="nav-bar" class="nav">
+        
+       
+    </section>
+
+    
+    <h1 id="Con_Heading" onclick="changeFont()">Contact Us</h1>
+
+    <div class="Form" style="width: 600px;">
+        <div id = "con_Form">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Contact Address</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
+        <div id="con_info" onmouseover="toggleAlign()">
+            <p>
+                <b>Address:</b> 123 West Street
+            </p>
+            <p><b>Contact Number:</b> 0800-123-456</p>
+            <p><b>Email Address:</b> captivateinteriors@captivateinteriors.co.nz</p>
+            <p><b>Fax Number:</b> 123-456-789</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer" style="position:fixed; bottom: 0;">
+            
+        </div>
+    </footer>
+
+    <script>
+        function toggleAlign(){
+            let contact_info = document.getElementById('con_info');
+            contact_info.style.float = "right";
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

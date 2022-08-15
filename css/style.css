@@ -1,0 +1,22 @@
+.Form{
+    width: 100px;
+}
+
+.header{
+    /* background-image: linear-gradient(to right, #a517ba, #5f1782); */
+    /* font-size: 30px;*/
+    font-family: cursive;
+    /* font-weight: 100;
+    color: black;  */
+}
+
+.footer{
+    
+    left: 0;
+    bottom:0;
+    background-color: burlywood;
+    width:100%;
+    bottom:0;
+    padding:5px 0;
+    
+}

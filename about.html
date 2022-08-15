@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section >
+        <header class="header">
+            
+        </header>
+    </section>
+    <section id="nav-bar" class="nav">
+        
+        
+        
+    </section>
+
+    <section>
+        <div class="row">
+    
+            <div class="col-md-6">
+            <img id="CEOimg" class="img-fluid" src="https://via.placeholder.com/750x500" alt="" style="width: 800px; height:500px">
+            </div>
+        
+            <div class="col-md-6">
+            <h3 id="CEO_HD" class="my-3">CEO</h3>
+            <p id="CEO_DES">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+            <button id="CEO_BTN" class="btn btn-primary" type="button" onclick="changeMD()">Change to MD</button>
+            <!-- <h3 class="my-3">Project Details</h3>
+            <ul>
+                <li>Lorem Ipsum</li>
+                <li>Dolor Sit Amet</li>
+                <li>Consectetur</li>
+                <li>Adipiscing Elit</li>
+            </ul> -->
+            </div>
+        
+        </div>
+    </section>
+    <br/>
+
+
+   
+    <section>
+        <div class="bg-primary text-center py-5 mb-4">
+            <div class="container">
+                <h1 class="fw-light text-white">Meet the Team</h1>
+            </div>
+        </div>
+
+        <div class="container mt-5" >
+            <div class="row">
+                <div id = "staff1"  class="col-md-4" onmouseover="showButton1()" onmouseout="hideButton1()">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/images/images.jpg" width="70">
+                            <div class="d-flex flex-column ml-2"><span>Stripe</span><span class="text-black-50">Payment Services</span><span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></div>
+                        </div>
+                        <h6>Get more context on your users with stripe data inside our platform.</h6>
+                        <div class="d-flex justify-content-between install mt-3"><span>Installed 172 times</span><span class="text-primary">View&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                        <div>
+                            <button id="button1" class="btn btn-primary w-100" type="button" onclick="hideStaff1()">Hide
+                                Staff</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/images/images.jpg" width="70">
+                            <div class="d-flex flex-column ml-2"><span>Mailchimp</span><span class="text-black-50">Project Management</span><span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></div>
+                        </div>
+                        <h6>Capture and sync subscribers from your mailchimp platform to ours with ease.</h6>
+                        <div class="d-flex justify-content-between install mt-3"><span>Installed 1234 times</span><span class="text-primary">View&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/images/images.jpg" width="70">
+                            <div class="d-flex flex-column ml-2"><span>Dropbox</span><span class="text-black-50">File Management</span><span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></div>
+                        </div>
+                        <h6>Use dropbox to sync your photos to our platform and share it with others.</h6>
+                        <div class="d-flex justify-content-between install mt-3"><span>Installed 1234 times</span><span class="text-primary">View&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/images/images.jpg" width="70">
+                            <div class="d-flex flex-column ml-2"><span>Shopify</span><span class="text-black-50">Ecommerce</span><span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></div>
+                        </div>
+                        <h6>Sell you items with ease with having any website with our free platform</h6>
+                        <div class="d-flex justify-content-between install mt-3"><span>Installed 1234 times</span><span class="text-primary">View&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/images/images.jpg" width="70">
+                            <div class="d-flex flex-column ml-2"><span>Atlassian</span><span class="text-black-50">Project management</span><span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></div>
+                        </div>
+                        <h6>Developing products for developers,project managers and architects.</h6>
+                        <div class="d-flex justify-content-between install mt-3"><span>Installed 345 times</span><span class="text-primary">View&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/images/images.jpg" width="70">
+                            <div class="d-flex flex-column ml-2"><span>Salesforce</span><span class="text-black-50">Project management</span><span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></div>
+                        </div>
+                        <h6>Developing products for developers,project managers and architects.</h6>
+                        <div class="d-flex justify-content-between install mt-3"><span>Installed 345 times</span><span class="text-primary">View&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </section>
+
+
+
+
+
+    <footer>
+        <div class="footer" id="foot" >
+            
+        </div>
+    </footer>
+
+
+    <script>
+        var button1 = document.getElementById('button1');
+        button1.style.visibility = "hidden";
+
+        function changeMD()
+        {
+           /* Find all the elements*/
+
+           var CEO_heading = document.getElementById('CEO_HD');
+           var CEO_des = document.getElementById('CEO_DES');
+           var CEO_img = document.getElementById('CEOimg');
+           var CEO_btn = document.getElementById('CEO_BTN');
+
+
+           if(CEO_heading.textContent == "CEO")
+           {
+                CEO_heading.innerHTML = "MD";
+                CEO_heading.style.color = "blue";
+                CEO_heading.style.fontSize = "50px";
+                CEO_des.innerHTML = "MD Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.";
+               /* CEO_img.src = "https://images.squarespace-cdn.com/content/53b599ebe4b08a2784696956/1482287990797-VY0DDX7AE1UKLY3OZGXV/Headshots-NYC-CEOportrait-027.jpg?format=1000w&content-type=image%2Fjpeg"*/
+                CEO_img.src = "/images/images.jpg";
+                CEO_btn.innerHTML = "Change to CEO";
+           }
+           else
+           {
+                CEO_heading.innerHTML = "CEO";
+                CEO_heading.style.color = "blue";
+                CEO_heading.style.fontSize = "50px";
+                CEO_des.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.";
+                CEO_img.src = "https://via.placeholder.com/750x500";
+                CEO_btn.innerHTML = "Change to MD"
+           }
+        }
+
+        function hideStaff1(){
+            var staff = document.getElementById('staff1');
+            staff.style.visibility = "hidden";
+        }
+
+        function showButton1(){
+            button1.style.visibility = "visible";
+        }
+
+        function hideButton1(){
+            button1.style.visibility = "hidden";
+        }
+
+    </script>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
